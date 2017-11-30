@@ -1,7 +1,7 @@
 # vue-typescript
 用vue-cli生成基本之后，改成配合使用typescrpit的结构
 改动内容有：
-1.webpack.conf.base.js
+#1.webpack.conf.base.js
   1.1 入口文件修改为main.ts
     entry: {
       app: './src/main.ts'
@@ -27,7 +27,7 @@
 
 2.在项目根目录文件夹下面添加ts的配置文件tsconfig.json
 {
-  "compilerOptions": {
+ # "compilerOptions": {
     "strict": true,
     "module": "es2015",
     "moduleResolution": "node",
